@@ -1,0 +1,143 @@
+/* CSS Document */
+body{
+  margin:0 auto;
+  background-color:#eef6fc;
+}
+
+#top{ 
+ 
+  height:60px;
+  background:url(../images/menu_bg.gif) repeat-x;
+}
+#top_logo{
+  width:450px;
+  height:60px;
+  float:left;
+  vertical-align:bottom;
+  background:url(../images/flogo.gif) no-repeat;
+}
+#top_right{
+  width:1034px;
+  height:60px;
+  float:right;
+  vertical-align:bottom;
+}
+
+#menu_cnt{
+position:fixed;
+left:450px;
+  width:755px;
+  height:31px;
+  float:left;
+  margin-top:29px;
+}
+#menu_left{
+  width:10px;
+  height:30px;
+  float:left;
+  background:url(../images/menu_lbg.gif) no-repeat;
+}
+#nav{
+  height:31px;
+  float:left;
+}
+#nav ul {  
+  clear: left;
+  width:438px; 
+  margin: 0px;  
+  padding:0px;  
+  border: 0px;  
+  list-style-type: none;  
+  text-align: center;  
+  display:inline; 
+} 
+#nav ul li {  
+  float: left;  
+  display: block;
+  width:120px;
+  height:31px;  
+  margin: 0px;  
+  padding: 0px;
+  list-style-type:none; 
+  text-align: center;
+}
+.inactive{  
+  display: block;   
+  font:12px "ËÎÌå";
+  line-height:33px;
+  color: #006699;   
+  text-decoration:none;
+  background:url(../images/nav_bg.gif) !important;  
+  progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/nav_bg.gif);
+}
+
+.inactive a{
+  display: block;   
+  font:12px;
+  line-height:33px;
+  color: #006699;   
+  text-decoration:none;
+}
+.active{
+  display: block;
+  font:12px "Î¢ÈíÑÅºÚ"; 
+  color: #ffffff;
+  line-height:33px;
+  font-weight:bold;
+  background:url(../images/nav_hover.gif) !important;
+  progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/nav_hover.gif);
+} 
+.active a{
+  display: block;
+  font:12px "Î¢ÈíÑÅºÚ"; 
+  color: #ffffff;
+  line-height:33px;
+  font-weight:bold;
+  text-decoration: none;
+} 
+#menu_right{
+  width:11px;
+  height:31px;
+  float:left;
+  background:url(../images/menu_rbg.gif);
+}
+
+#main{
+	height:31px;
+	float:top;
+	margin-top:100px;
+	text-align: center;
+}
+#main ul {  
+  clear: left;
+  width:438px; 
+  margin: 0px;  
+  padding:0px;  
+  border: 0px;  
+  list-style-type: none;  
+  text-align: center;  
+  display:inline; 
+} 
+#main ul li {  
+  float: top;  
+  display: block;
+   
+  margin: 0px;  
+  padding: 0px;
+  list-style-type:none; 
+  text-align: center;
+}
+
+
+#sysm{ 
+ top:10px;
+ float:right;
+ margin-right:20px;
+ color:#006699;
+ font-size:12px;
+}
+
+#sysm a:link{
+ color:#006699;
+ font-size:12px;
+ }

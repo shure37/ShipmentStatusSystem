@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Shipment Delivery Status System</title>
+<link href="css/basic.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+<!--
+function showPackageDetail(){
+   var frm = (document.getElementById('ifrObj'));
+ 
+   var package=document.getElementById('package').value;
+   
+   frm.src = "package/packageDetail.jsp?package="+package;
+	
+}
+
+-->
+</script>
+</head>
+
+<body>
+<div>
+<div id="top">
+<div id="top_logo">
+</div>
+<div id="sysm">
+  <form id="form1" name="form1" method="post" action="usermanager/login.jsp" target="_blank">
+   Username
+      <input type="text" name="username" />
+       Password
+       <input type="text" name="password" />
+       <input type="submit" name="Submit" value="Login" />
+  
+  </form>
+</div>
+</div>
+
+  <div id="main">
+   <ul>
+   <li>
+      <label>Input package number:
+        <input type="text" id="package" />
+        </label>
+      <label>
+      <input type="submit" name="Submit2" value="Search" onclick="showPackageDetail();"  />
+      </label>
+  
+  </li>
+  <li>&nbsp;</li><li>&nbsp;</li>
+  <li>
+  <iframe id="ifrObj" src="package/packageDetail.jsp" frameborder="0" height="400px"></iframe>
+  </li>
+  </ul>
+  
+  </div>
+</div>
+ 
+</body>
+
+</html>
